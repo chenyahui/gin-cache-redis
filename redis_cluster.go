@@ -3,9 +3,10 @@ package gin_cache_redis
 import (
 	"context"
 	"errors"
-	"github.com/chenyahui/gin-cache/persist"
-	redisv9 "github.com/go-redis/redis/v9"
 	"time"
+
+	"github.com/chenyahui/gin-cache/persist"
+	redisv9 "github.com/redis/go-redis/v9"
 )
 
 type RedisClusterStore struct {

@@ -1,11 +1,12 @@
 package example
 
 import (
+	"time"
+
 	cache "github.com/chenyahui/gin-cache"
 	redisbackend "github.com/chenyahui/gin-cache-redis"
 	"github.com/gin-gonic/gin"
-	"github.com/go-redis/redis/v9"
-	"time"
+	"github.com/redis/go-redis/v9"
 )
 
 func main() {
